@@ -13,7 +13,3 @@ def move(my_list, direction=None):
             my_list[index_of_one - 1] = 1
 
     return my_list
-
-
-# test it
-print(move([0, 1, 0, 0], 'right'))
